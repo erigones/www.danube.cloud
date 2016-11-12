@@ -27,12 +27,21 @@ footer {
 }
 
 .social {
-  font-size: 12px;
+  font-size: 16px;
+}
+
+.social a {
+  color: white;
 }
 
 .copyright {
-  font-size: 11px;
+  font-size: 12px;
 }
+
+.copyright a {
+  color: white;
+}
+
 
 nav.transparent {
   background: none;
