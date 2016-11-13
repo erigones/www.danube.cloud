@@ -63,7 +63,7 @@ footer {
   top: 100px;
 }
 
-.hero .content .about {
+#about {
   text-align: justify;
   width: 60%;
   margin: 0 auto; 
@@ -99,7 +99,8 @@ nav.transparent .pseudo.button.active {
     background-color: #111;
   }
 
-  .hero .content .about {
+  #about {
+    width: 80%;
     padding-bottom: 100px;
   }
 }
