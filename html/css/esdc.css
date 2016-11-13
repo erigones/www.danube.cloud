@@ -1,7 +1,7 @@
 html, body, main {
   display: block;
   background-color: black;
-  color: gray;
+  color: #999;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -16,8 +16,7 @@ footer {
   bottom: 0;
   padding: 0;
   margin: 0;
-  padding-top: 10px;
-  border-top: 1px solid gray;
+  border-top: 1px solid #888;
 }
 
 .footer {
@@ -26,41 +25,25 @@ footer {
   text-align: center;
 }
 
-.social {
-  font-size: 16px;
+.footer a {
+  color: #ddd;
 }
 
-.social a {
-  color: white;
+.footer a:hover {
+  box-shadow: 0 1px #fff;
+}
+
+.footer p {
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.socka {
+  font-size: 16px;
 }
 
 .copyright {
   font-size: 12px;
-}
-
-.copyright a {
-  color: white;
-}
-
-
-nav.transparent {
-  background: none;
-  box-shadow: none;
-  border-bottom: 1px solid gray;
-}
-
-nav.transparent .brand, nav.transparent .pseudo.button {
-  color: inherit;
-}
-
-nav.transparent .pseudo.button:hover {
-  box-shadow: 0 2px gray;
-}
-
-@media (max-width: 60em) {
-  nav .burger ~ .menu {
-    background-color: #111;
-  }
 }
 
 .hero {
@@ -69,8 +52,54 @@ nav.transparent .pseudo.button:hover {
   height: 100%;
   text-align: center;
   min-height: 300px;
-  color: gray;
+  color: #aaa;
   padding: 0;
   background: black url('../img/danubecloud-logo-inv.svg') no-repeat center center fixed;
   background-size: contain;
+}
+
+.hero .content {
+  position: relative;
+  top: 100px;
+}
+
+.hero .content .about {
+  text-align: justify;
+  width: 60%;
+  margin: 0 auto; 
+  background-color: rgba(0,0,0,0.8);
+  color: #bbb;
+  padding: 40px 10px;
+}
+
+nav.transparent {
+  background: none;
+  box-shadow: none;
+  border-bottom: 1px solid #888;
+}
+
+nav.transparent .brand {
+  color: #ccc;
+}
+
+nav.transparent .pseudo.button {
+  color: inherit;
+}
+
+nav.transparent .pseudo.button:hover {
+  box-shadow: inset 0 0 0 99em rgba(177,177,177,0.3);
+}
+
+nav.transparent .pseudo.button.active {
+  color: #ccc;
+}
+
+@media (max-width: 60em) {
+  nav .burger ~ .menu {
+    background-color: #111;
+  }
+
+  .hero .content .about {
+    padding-bottom: 100px;
+  }
 }
