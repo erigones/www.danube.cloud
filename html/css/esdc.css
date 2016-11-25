@@ -17,6 +17,8 @@ footer {
   padding: 0;
   margin: 0;
   border-top: 1px solid #888;
+  z-index: 3;
+  background-color: black;
 }
 
 .footer {
@@ -77,6 +79,8 @@ nav.transparent {
   background: none;
   box-shadow: none;
   border-bottom: 1px solid #888;
+  z-index: 3;
+  background-color: black;
 }
 
 nav.transparent .brand {
@@ -103,6 +107,7 @@ nav.transparent .pseudo.button.active {
 
   #about {
     width: 80%;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
+    padding-top: 0;
   }
 }
