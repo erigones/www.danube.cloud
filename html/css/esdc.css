@@ -147,8 +147,9 @@ nav.transparent .pseudo.button.active {
   }
   .content-text {
     width: 80%;
-    padding-bottom: 110px;
-    padding-top: 0;
+  }
+  .hero .content {
+    min-height: 100vh;
   }
 }
 
@@ -159,6 +160,7 @@ nav.transparent .pseudo.button.active {
   }
   .hero .content {
     position: static;
+    min-height: 100vh;
   }
   .section {
     height: auto;
