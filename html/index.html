@@ -31,43 +31,81 @@
 
     <!-- CSS -->
     <link href="css/picnic.min.css" rel="stylesheet">
-    <link href="css/esdc.css?t=1480067774" rel="stylesheet">
+    <link href="css/esdc.css?t=1481719999" rel="stylesheet">
   </head>
   <body>
 
     <!-- Header: fixed navbar -->
     <nav class="transparent">
-      <img class="logo" src="img/danubecloud-icon-64.png" />
-      <a href="./" class="brand">Danube Cloud</a>
+      <img class="logo" src="img/danubecloud-icon-64.png" alt="" />
+      <a href="#home" class="brand">Danube Cloud</a>
 
       <!-- responsive-->
       <input id="bmenub" type="checkbox" class="show">
       <label for="bmenub" class="burger pseudo button" id="menu">menu</label>
 
       <div class="menu">
-        <a href="#" id="esdc-ce" class="pseudo button active">Community Edition</a>
+        <a href="#about" class="pseudo button">About</a>
+        <a href="#features" class="pseudo button">Features</a>
         <a href="https://docs.danubecloud.org/" class="pseudo button">Documentation</a>
         <a href="https://github.com/erigones/esdc-ce/wiki/download" class="pseudo button">Download</a>
-        <a href="https://github.com/erigones/esdc-ce/wiki" class="pseudo button">Development</a>
-        <!--
-        <a href="https://danubecloud.com/blog/" class="pseudo button" >Blog</a>
         <a href="https://danubecloud.com/" class="pseudo button">Enterprise Edition</a>
-        -->
       </div>
     </nav>
 
     <!-- Content -->
     <main>
-      <header class="hero">
-        <div class="content">
-          <p id="about">
-          So, you are a sysadmin. Every day you do ssh, install packages, configure databases and make users happy. One day you get a task: install web application X to a new server. So you do the usual: you think about networking, spawn a new virtual machine, install your favourite OS, install required system packages, configure all necessary services and deploy the application. Then you setup some DNS records, configure monitoring for the VM and services and schedule some automated backups or snapshots. Now imagine that you do this every week or so. Pretty boring, right?
-          <br><br>
-          Welcome to our world. Except... we use Danube Cloud for all this boring stuff and focus on other things...
-          </p>
+      <div class="section" id="home">
+        <div class="hero esdc-logo">
+          <div class="content">
+          </div>
         </div>
-      </header>
-      
+      </div>
+
+      <div class="section" id="about">
+        <div class="hero">
+          <div class="content">
+            <p class="content-text">
+            So, you are a sysadmin. Every day you do ssh, install packages, configure databases and make users happy. One day you get a task: install web application X to a new server. So you do the usual: you think about networking, spawn a new virtual machine, install your favourite OS, install required system packages, configure all necessary services and deploy the application. Then you setup some DNS records, configure monitoring for the VM and services and schedule some automated backups or snapshots. Now imagine that you do this every week or so. Pretty boring, right?
+            <br><br>
+            Welcome to our world. Except... we use Danube Cloud for all this boring stuff and focus on other things...
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="features">
+        <div class="hero">
+          <div class="content">
+            <div class="content-text flex">
+              <div>
+                <ul>
+                  <li>Fast and simple deployment</li>
+                  <li>Based on <a href="https://www.joyent.com/smartos" target="_blank">SmartOS</a> with ZFS, KVM and zones</li>
+                  <li>Unique virtualization and network security</li>
+                  <li>Centralized web management portal</li>
+                  <li>Instant snapshots and off-site backups</li>
+                  <li>Integrated monitoring with zero configuration</li>
+                  <li>Integrated DNS and IP address management</li>
+                  <li>Extensive documentation</li>
+                </ul>
+              </div>
+              <div></div>
+              <div id="screenshots">
+                <a href="img/screenshots/vm-list.png"><img src="img/screenshots/vm-list-small.png" alt=""></a>
+                <a href="img/screenshots/vm-details.png"><img src="img/screenshots/vm-details-small.png" alt=""></a>
+                <br>
+                <a href="img/screenshots/vm-console.png"><img src="img/screenshots/vm-console-small.png" alt=""></a>
+                <a href="img/screenshots/vm-monitoring.png"><img src="img/screenshots/vm-monitoring-small.png" alt=""></a>
+                <br>
+                <a href="img/screenshots/node-details.png"><img src="img/screenshots/node-details-small.png" alt=""></a>
+                <a href="img/screenshots/vm-snapshots.png"><img src="img/screenshots/vm-snapshots-small.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <footer>
         <div class="footer">
           <p class="socka">
@@ -75,9 +113,9 @@
             <span> | </span>
             <a href="https://github.com/erigones/esdc-ce/wiki">GitHub</a>
             <span> | </span>
-            Mailing&nbsp;list: <a href="mailto:danubecloud+subscribe@googlegroups.com">danubecloud@googlegroups.com</a>
+            Mailing&nbsp;list:&nbsp;<a href="mailto:danubecloud+subscribe@googlegroups.com">danubecloud@googlegroups.com</a>
             <span> | </span>
-            IRC: <a href="https://webchat.freenode.net/#danubecloud">irc.freenode.net#danubecloud</a>
+            IRC:&nbsp;<a href="https://webchat.freenode.net/#danubecloud">irc.freenode.net#danubecloud</a>
           <p class="copyright">Copyright &#169; 2016 <a href="https://www.erigones.com" target="_blank">Erigones, s. r. o.</a> All rights reserved.</p>
         </div>
       </footer>
