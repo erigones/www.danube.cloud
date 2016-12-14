@@ -68,6 +68,20 @@ footer {
   background-size: cover;
 }
 
+@media (max-width: 900px) {
+  .section#home {
+    background: black url('../img/backgrounds/dc03-small.jpg') no-repeat center center fixed;
+  }
+
+  .section#about {
+    background: black url('../img/backgrounds/geek-small.jpg') no-repeat center center fixed;
+  }
+
+  .section#features {
+    background: black url('../img/backgrounds/facility-small.jpg') no-repeat center center fixed;
+  }
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -94,13 +108,26 @@ footer {
   margin: 0 auto; 
   background-color: rgba(0,0,0,0.8);
   color: #ddd;
-  padding: 40px 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 40px;
 }
 
-.section#features .content-text {
+.content-text h3 {
+  color: #bbb;
   text-align: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
+}
+
+.content-text p {
+  margin: 0;
+  padding: 0;
+}
+
+.section#features .content-text ul {
+  text-align: left;
+  padding-left: 24px;
+  margin: 0;
 }
 
 #screenshots {
