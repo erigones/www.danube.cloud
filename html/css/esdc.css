@@ -55,16 +55,25 @@ footer {
 
 .section#home {
   background: black url('../img/backgrounds/dc03.jpg') no-repeat center center fixed;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
 }
 
 .section#about {
   background: black url('../img/backgrounds/geek.jpg') no-repeat center center fixed;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
 }
 
 .section#features {
   background: black url('../img/backgrounds/facility.jpg') no-repeat center center fixed;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
 }
 
@@ -94,6 +103,9 @@ footer {
 
 .hero.esdc-logo {
   background: rgba(0,0,0,0.2) url('../img/danubecloud-logo-inv.svg') no-repeat center center fixed;
+  -o-background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
   background-size: contain;
 }
 
