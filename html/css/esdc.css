@@ -80,14 +80,29 @@ footer {
 @media (max-width: 900px) {
   .section#home {
     background: black url('../img/backgrounds/dc03-small.jpg') no-repeat center center fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
   }
 
   .section#about {
     background: black url('../img/backgrounds/geek-small.jpg') no-repeat center center fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
   }
 
   .section#features {
     background: black url('../img/backgrounds/facility-small.jpg') no-repeat center center fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
   }
 }
 
@@ -107,6 +122,7 @@ footer {
   -moz-background-size: contain;
   -webkit-background-size: contain;
   background-size: contain;
+  background-attachment: scroll;
 }
 
 .hero .content {
