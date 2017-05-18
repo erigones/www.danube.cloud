@@ -1,5 +1,4 @@
 // Load GA js code
-
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -19,14 +18,24 @@ var trackOutboundLink = function(mouseclick) {
     ga('send', 'event', 'Outbound Link', mouseclick.target.href);
 }
 
-// AddEventListener for links with external class and notify GA with url on click
+// Function that send event to GA
+var trackScreenShotView = function(mouseclick) {
+    ga('send', 'event', 'Screenshots', mouseclick.target.href);
+}
+
 document.addEventListener('DOMContentLoaded', function () {
+    // AddEventListener for links with external class and notify GA with url on click
     var buttons = document.getElementsByClassName('external');
     for (var i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', trackOutboundLink);
     }
+    // AddEventListener for pictures with screenshot class and notify GA with url on click
+    var buttons = document.getElementsByClassName('screenshot');
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', trackScreenShotView);
+    }
 });
-      
+
       // YouTube player tracking
 
       var tag = document.createElement('script');
