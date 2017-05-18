@@ -20,7 +20,7 @@ var trackOutboundLink = function(mouseclick) {
 
 // Function that send event to GA
 var trackScreenShotView = function(mouseclick) {
-    ga('send', 'event', 'Screenshots', mouseclick.target.href);
+    ga('send', 'event', 'Screenshots', mouseclick.target.src);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -30,9 +30,9 @@ document.addEventListener('DOMContentLoaded', function () {
         buttons[i].addEventListener('click', trackOutboundLink);
     }
     // AddEventListener for pictures with screenshot class and notify GA with url on click
-    var buttons = document.getElementsByClassName('screenshot');
-    for (var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', trackScreenShotView);
+    var images = document.getElementsByClassName('screenshot');
+    for (var i = 0; i < images.length; i++) {
+        images[i].addEventListener('click', trackScreenShotView);
     }
 });
 
