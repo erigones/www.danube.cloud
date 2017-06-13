@@ -1,7 +1,7 @@
 {
   "autoboot": true,
   "brand": "joyent",
-  "image_uuid": "e13fa48f-bdee-4476-b9f7-fd999bdc4797",
+  "image_uuid": "f2f58063-7ee2-4d48-8904-d55bddbc601f",
   "cpu_shares": 100,
   "zfs_io_priority": 100,
   "max_physical_memory": 256,
