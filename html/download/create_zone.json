@@ -1,0 +1,32 @@
+{
+  "hostname": "myzone.dc.danube.cloud",
+  "alias": "myzone.dc.danube.cloud",
+
+  "autoboot": true,
+
+  "brand": "joyent",
+
+  "image_uuid": "dc6ea643-748c-42be-817e-726592d85f88",
+
+  "zfs_root_compression": "lz4"
+
+  "max_physical_memory": 256,
+
+  "resolvers": [
+    "8.8.8.8",
+        "8.8.4.4"
+  ],
+
+  "nics": [
+    {
+      "nic_tag": "admin",
+      "gateways": [
+        "10.100.200.1"
+      ],
+      "ips": [
+        "10.100.200.xxx/24"
+      ],
+      "primary": true
+    }
+  ],
+}
