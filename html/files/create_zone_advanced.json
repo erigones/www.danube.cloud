@@ -10,18 +10,19 @@
   "max_swap": 512,
   "cpu_cap": 200,
   "hostname": "myzone2.local",
+  "alias": "myzone2.local",
   "dns_domain": "local",
   "resolvers": [
-    "10.50.1.102"
+    "8.8.8.8",
+    "8.8.4.4"
   ],
-  "alias": "myzone2.local",
   "nics": [
     {
       "interface": "net0",
       "nic_tag": "admin",
-      "gateway": "10.50.1.1",
+      "gateway": "10.100.200.1",
       "netmask": "255.255.255.0",
-      "ip": "10.50.1.103",
+      "ip": "10.100.200.xxx",
       "primary": true
     }
   ],
@@ -31,7 +32,6 @@
   },
   "routes": {},
   "tags": {},
-  "indestructible_zoneroot": false,
   "quota": 20,
   "zfs_root_compression": "lz4",
   "zpool": "zones"
