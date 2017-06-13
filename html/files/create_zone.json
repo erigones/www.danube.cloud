@@ -8,7 +8,7 @@
 
   "image_uuid": "dc6ea643-748c-42be-817e-726592d85f88",
 
-  "zfs_root_compression": "lz4"
+  "zfs_root_compression": "lz4",
 
   "max_physical_memory": 256,
 

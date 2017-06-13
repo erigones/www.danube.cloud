@@ -34,6 +34,6 @@
   "indestructible_zoneroot": false,
   "quota": 20,
   "zfs_root_compression": "lz4",
-  "zpool": "zones",
+  "zpool": "zones"
 }
 
