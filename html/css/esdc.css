@@ -142,9 +142,22 @@ footer {
   padding-bottom: 40px;
 }
 
+.content-text.video {
+  padding-bottom: 10px;
+}
+
+.content-text.inverse {
+  background-color: rgba(255,255,255,0.9);
+  color: #000;
+}
+
 .content-text h3 {
   color: #bbb;
   text-align: left;
+}
+
+.content-text.inverse h3 {
+  color: #000;
 }
 
 .content-text p {
@@ -156,6 +169,24 @@ footer {
   text-align: left;
   padding-left: 24px;
   margin: 0;
+}
+
+.video-container {
+  position: relative; 
+  float: none;
+  overflow: hidden; 
+  clear: both;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #screenshots a {
