@@ -233,6 +233,9 @@ nav.transparent .pseudo.button.active {
   .content-text {
     width: 80%;
   }
+  .content-text.video {
+    width: 100%;
+  }
   .hero .content {
     min-height: 100vh;
   }
