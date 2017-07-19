@@ -54,7 +54,8 @@ footer {
 }
 
 .section#home {
-  background: black url('../img/backgrounds/dc03.jpg') no-repeat center center fixed;
+  background: black url('../img/backgrounds/exposure.jpg') no-repeat center center fixed;
+
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -62,7 +63,18 @@ footer {
 }
 
 .section#about {
-  background: black url('../img/backgrounds/geek.jpg') no-repeat center center fixed;
+  background: black url('../img/backgrounds/server.jpg') no-repeat center center fixed;
+
+
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.section#about2 {
+  background: black url('../img/backgrounds/server-farm.jpg') no-repeat center center fixed;
+
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -70,7 +82,8 @@ footer {
 }
 
 .section#features {
-  background: black url('../img/backgrounds/facility.jpg') no-repeat center center fixed;
+  background: black url('../img/backgrounds/fatcow.jpg') no-repeat center center fixed;
+
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -79,7 +92,7 @@ footer {
 
 @media (max-width: 900px) {
   .section#home {
-    background: black url('../img/backgrounds/dc03-small.jpg') no-repeat center center fixed;
+    background: black url('../img/backgrounds/exposure-small.jpg') no-repeat center center fixed;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -88,7 +101,16 @@ footer {
   }
 
   .section#about {
-    background: black url('../img/backgrounds/geek-small.jpg') no-repeat center center fixed;
+    background: black url('../img/backgrounds/server-small.jpg') no-repeat center center fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .section#about2 {
+    background: black url('../img/backgrounds/fatcow-small.jpg') no-repeat center center fixed;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -97,7 +119,7 @@ footer {
   }
 
   .section#features {
-    background: black url('../img/backgrounds/facility-small.jpg') no-repeat center center fixed;
+    background: black url('../img/backgrounds/server-farm-small.jpg') no-repeat center center fixed;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -141,6 +163,63 @@ footer {
   padding-left: 10px;
   padding-bottom: 40px;
 }
+
+.content-free {
+  text-align: left;
+  width: 60%;
+  margin: 0 auto; 
+  background-color: rgba(0,0,0,0.8);
+  color: #ddd;
+  padding:0;
+}
+
+.content-free .flex {
+  width: 100%;
+  margin: 0;
+}
+
+.flex .box {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  min-height: 200px;
+  text-align: left;
+  background-color: rgba(0, 31, 63, 0.5);
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-color: #0074d9;
+}
+
+.lead-image {
+  margin-top: 0;
+  margin-right: 20px;
+  font-size: 100px;
+  color: #b3e5fc;
+  float: left;
+}
+
+.lead-image-text {
+  color: #eee;
+  padding-left: 120px;
+}
+
+.box1 {
+  border-top: 1px solid;
+}
+
+.box2 {
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
+
+.box3 {
+}
+
+.box4 {
+  border-right: 1px solid;
+}
+
 
 .content-text.video {
   padding-bottom: 10px;
@@ -226,18 +305,43 @@ nav.transparent .pseudo.button.active {
   color: #0074d9;
 }
 
-@media (max-width: 60em) {
+@media (max-width: 66em) {
   nav .burger ~ .menu {
     background-color: #111;
   }
-  .content-text {
+  .content-text, .content-free {
     width: 80%;
-  }
-  .content-text.video {
-    width: 100%;
   }
   .hero .content {
     min-height: 100vh;
+  }
+  .lead-image {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .lead-image-text {
+    padding-left: 60px;
+  }
+  .flex .box {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    min-height: 120px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 30em) {
+  .content-text, .content-free {
+    width: 100%;
+  }
+  .lead-image {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  .lead-image-text {
+    padding-top: 42px;
+    padding-left: 0px;
   }
 }
 
