@@ -110,7 +110,7 @@ footer {
   }
 
   .section#about2 {
-    background: black url('../img/backgrounds/fatcow-small.jpg') no-repeat center center fixed;
+    background: black url('../img/backgrounds/server-farm-small.jpg') no-repeat center center fixed;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -119,7 +119,7 @@ footer {
   }
 
   .section#features {
-    background: black url('../img/backgrounds/server-farm-small.jpg') no-repeat center center fixed;
+    background: black url('../img/backgrounds/fatcow-small.jpg') no-repeat center center fixed;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
