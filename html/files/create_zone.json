@@ -6,7 +6,7 @@
 
   "brand": "joyent",
 
-  "image_uuid": "f2f58063-7ee2-4d48-8904-d55bddbc601f",
+  "image_uuid": "eb82f2e2-62cb-4719-a87a-a74d08d6363c",
 
   "zfs_root_compression": "lz4",
 
@@ -21,10 +21,10 @@
     {
       "nic_tag": "admin",
       "gateways": [
-        "10.100.200.1"
+        "10.0.1.1"
       ],
       "ips": [
-        "10.100.200.xxx/24"
+        "10.0.1.xx/24"
       ],
       "primary": true
     }

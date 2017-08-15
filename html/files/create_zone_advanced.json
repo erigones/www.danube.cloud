@@ -1,7 +1,7 @@
 {
   "autoboot": true,
   "brand": "joyent",
-  "image_uuid": "f2f58063-7ee2-4d48-8904-d55bddbc601f",
+  "image_uuid": "eb82f2e2-62cb-4719-a87a-a74d08d6363c",
   "cpu_shares": 100,
   "zfs_io_priority": 100,
   "max_physical_memory": 256,
@@ -20,15 +20,15 @@
     {
       "interface": "net0",
       "nic_tag": "admin",
-      "gateway": "10.100.200.1",
+      "gateway": "10.0.1.1",
       "netmask": "255.255.255.0",
-      "ip": "10.100.200.xxx",
+      "ip": "10.0.1.xxx",
       "primary": true
     }
   ],
   "firewall_enabled": false,
   "customer_metadata": {
-    "root_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCuA4IEnlU2ovzDjfOvm3oX1aDOMjflFZevlroAbpmVKi0UaQFAmfs5brz1vJN3Snwio8ADnen1Ix8yP5yxCX+1thAYhtcXVJ7g7qFggUsztITAVNVQLVizN6Ds39FJX9R113DMsAj/8vrFBoNlmZQyLCC0UUIhC+YcbPU+qZN/bqbBhJlTMSjsbQ4ZT77GGgiMZ/P8A/IyE860tX/2QgidSThV0sjimlyIu6o5Ombltpkdmo+hUH3DL9bWkfJFtCkJrbIB8uIr5TvrLZ9vu9ZUvoO7BPQQey9HDuMTMqZ5d1hM4IdZ+ViceyyUHjnTSikqDMsK8WClKPOMvTicj/TN headnode.sh.danube.cloud"
+    "root_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCr3FXEDg/cCTPiQHD1DI8wRt1c1hPTQcOCoQkE8ERxCkoYr3dThLbHrc7VrSdZsjy2BIOVF+xqKwxbRODVrK+hMSDnq4omJJ2lI+kMZVxpvHH2KvkkGYhPvFGFoT9bLI//mEwNIhzVdRrivk19nBBX/2aJslUgNelQ6o9hmb3HGY1Xuo+993sZP1rAUJzXtVEgDmrz+sy+dYmqXsyg5ej1iVvatIZpBHEBHBuJRXuvHn8vdIJycoQWMRVr7K+NZknJO+Hie0mYXUmD4K4xNbBZj4rUWfm9uXO8dbeNSjo1f0LrpTWmzulEgCQWQv6dz6iUYtb7m3R1bMpBBMhjchfX node01.local"
   },
   "routes": {},
   "tags": {},
