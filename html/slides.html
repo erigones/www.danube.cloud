@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Danube Cloud is a cloud management software used for deploying, maintaining and automating cloud data centers and their processes.">
+    <meta name="author" content="Erigones, s. r. o.">
+    <title>Danube Cloud Community Edition</title>
+
+    <!-- You Promised Me Mars Colonies. Instead, I Got Facebook (Buzz Aldrin) -->
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@danubecloud">
+    <meta name="twitter:creator" content="@erigones">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Danube Cloud Community Edition">
+    <meta name="twitter:description" content="Danube Cloud is a cloud management software used for deploying, maintaining and automating cloud data centers and their processes.">
+    <meta name="twitter:image" content="https://danubecloud.org/img/danubecloud-logo-social.png">
+    <meta name="twitter:url" content="https://danubecloud.org">
+    <!-- Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Danube Cloud Community Edition">
+    <meta property="og:description" content="Danube Cloud is a cloud management software used for deploying, maintaining and automating cloud data centers and their processes.">
+    <meta property="og:site_name" content="danubecloud.org">
+    <meta property="og:image" content="https://danubecloud.org/img/danubecloud-logo-social.png">
+    <meta property="og:url" content="https://danubecloud.org">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" href="img/danubecloud-icon-144.png">
+    <link rel="icon" type="image/png" href="img/danubecloud-icon-64.png">
+
+    <!-- CSS -->
+    <link href="css/picnic.min.css" rel="stylesheet">
+    <link href="css/esdc.css?t=1481721156" rel="stylesheet">
+    <link href="css/fontello.css?t=1481721156" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script src="js/ga.js"></script>
+    <script src="js/yt.js"></script>
+    <script src="js/slides.js"></script>
+  </head>
+  <body>
+
+    <!-- Header: fixed navbar -->
+    <nav class="transparent">
+      <img class="logo" src="img/danubecloud-icon-64.png" alt="" />
+      <a href="/#home" class="brand">Danube Cloud</a>
+
+      <!-- responsive-->
+      <input id="bmenub" type="checkbox" class="show">
+      <label for="bmenub" class="burger pseudo button" id="menu">&#8801; menu</label>
+
+      <div class="menu">
+        <a href="/#about" id="btn-about" class="pseudo button">About</a>
+        <a href="/#features" id="btn-features" class="pseudo button">Features</a>
+        <a href="https://github.com/erigones/esdc-ce/wiki" class="pseudo button external">Documentation</a>
+        <a href="https://github.com/erigones/esdc-ce/wiki/download" class="pseudo button external">Download</a>
+        <a href="https://danubecloud.com/" class="pseudo button external">Enterprise Edition</a>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <main>
+      <div class="section" id="home">
+        <div class="hero esdc-logo">
+          <div class="content">
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="about">
+        <div class="hero">
+          <div class="content">
+            <div class="content-free">
+              <div class="flex two">
+                <div class="box box1">
+                  <span>
+                    <i class="icon-download lead-image"></i>
+                    <p class="lead-image-text">Deploy on your own hardware.</p>
+                  </span>
+                </div>
+                <div class="box box2">
+                  <span>
+                    <i class="icon-microchip lead-image"></i>
+                    <p class="lead-image-text">Manage virtual servers and containers from one user-friendly web interface.</p>
+                  </span>
+                </div>
+              </div>
+              <div class="flex two">
+                <div class="box box3">
+                  <span>
+                    <i class="icon-server lead-image"></i>
+                    <p class="lead-image-text">Build virtual datacenters for your customers and projects quickly and easily.</p>
+                  </span>
+                </div>
+                <div class="box box4">
+                  <span>
+                    <i class="icon-heartbeat lead-image"></i>
+                    <p class="lead-image-text">Sleep soundly thanks to integrated ZFS backups and Zabbix monitoring.</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="about2">
+        <div class="hero">
+          <div class="content">
+            <div class="content-text video">
+              <div class="video-container center">
+                <h3>About</h3>
+                <div id="yt-about">
+                  <p>
+                  So, you are a sysadmin. Every day you do ssh, install packages, configure databases and make users happy. One day you get a task: install web application X to a new server. So you do the usual: you think about networking, spawn a new virtual machine, install your favourite OS, install required system packages, configure all necessary services and deploy the application. Then you setup some DNS records, configure monitoring for the VM and services and schedule some automated backups or snapshots. Now imagine that you do this every week or so. Pretty boring, right?
+                  <br><br>
+                  Welcome to our world. Except... we use Danube Cloud for all this boring stuff and focus on other things...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="features">
+        <div class="hero">
+          <div class="content">
+            <div class="content-text">
+              <h3>Features</h3>
+              <div class="flex">
+                <div>
+                  <ul>
+                    <li>Based on <a href="https://www.joyent.com/smartos" target="_blank" class="external">SmartOS</a> with ZFS, KVM and zones</li>
+                    <li>Fast and simple deployment</li>
+                    <li>Unique virtualization and network security</li>
+                    <li>Centralized web management portal</li>
+                    <li>Instant VM snapshots</li>
+                    <li>Incremental-forever VM backups</li>
+                    <li>Integrated <a href="http://www.zabbix.com/" target="_blank" class="external">Zabbix</a> monitoring with zero configuration</li>
+                    <li>Integrated DNS and IP address management</li>
+                    <li data-tooltip="Transparently divide data center resources among customers, groups and projects." class="tooltip-bottom">Multi-tenant virtual data centers</li>
+                    <li>Extensive <a href="https://docs.danubecloud.org" target="_blank" class="external">documentation</a></li>
+                    <li>VM data replication in <a href="https://danubecloud.com" target="_blank" class="external">Enterprise Edition</a></li>
+                    <!--<li>Highly-available management portal in <a href="https://danubecloud.com" target="_blank" class="external">Enterprise Edition</a></li>-->
+                    <li>Support / SLA in <a href="https://danubecloud.com" target="_blank" class="external">Enterprise Edition</a></li>
+                  </ul>
+                </div>
+                <div></div>
+                <div id="screenshots">
+                  <a href="img/screenshots/vm-list.png" class="screenshot"><img src="img/screenshots/vm-list-small.png" alt=""></a>
+                  <a href="img/screenshots/vm-details.png" class="screenshot"><img src="img/screenshots/vm-details-small.png" alt=""></a>
+                  <br>
+                  <a href="img/screenshots/vm-console.png" class="screenshot"><img src="img/screenshots/vm-console-small.png" alt=""></a>
+                  <a href="img/screenshots/vm-monitoring.png" class="screenshot"><img src="img/screenshots/vm-monitoring-small.png" alt=""></a>
+                  <br>
+                  <a href="img/screenshots/node-details.png" class="screenshot"><img src="img/screenshots/node-details-small.png" alt=""></a>
+                  <a href="img/screenshots/vm-snapshots.png" class="screenshot"><img src="img/screenshots/vm-snapshots-small.png" alt=""></a>
+                  <br><br>
+                  <a href="https://github.com/erigones/esdc-ce/wiki/Quick-Start" class="external button">Quick Start<br>Guide</a>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="screenshot">
+        <div class="hero">
+          <div class="content" style="top:0px">
+            <div class="">
+              <div class="video-container center" style="padding-bottom: 75%">
+                <img src="img/screenshots/vm-console.png" style="border:none; height: 768px"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="docs">
+        <div class="hero">
+          <div class="content" style="top:50px">
+            <div class="">
+              <div class="video-container center" style="padding-bottom: 75%">
+                <iframe src="https://docs.danubecloud.org/user-guide/install/compute-node.html" style="border:none"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="docs2">
+        <div class="hero">
+          <div class="content" style="top:50px">
+            <div class="">
+              <div class="video-container center" style="padding-bottom: 75%">
+                <iframe src="https://docs.danubecloud.org/api-reference/api/vm_base.html" style="border:none"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="dev">
+        <div class="hero">
+          <div class="content" style="top:50px">
+            <div class="">
+              <div class="video-container center" style="padding-bottom: 75%">
+                <iframe src="sites/erigones_esdc-ce_main.html" style="border:none"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="dev2">
+        <div class="hero">
+          <div class="content" style="top:50px">
+            <div class="">
+              <div class="video-container center" style="padding-bottom: 75%">
+                <iframe src="sites/erigones_esdc-ce_wiki_architecture.html" style="border:none"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer">
+          <p class="socka">
+            <a href="https://twitter.com/danubecloud" class="external">Twitter</a>
+            <span> | </span>
+            <a href="https://github.com/erigones/esdc-ce/wiki" class="external">GitHub</a>
+            <span> | </span>
+            <a href="https://qa.danubecloud.org" class="external">Forum</a>
+            <span> | </span>
+            IRC:&nbsp;<a href="https://webchat.freenode.net/#danubecloud" class="external">irc.freenode.net#danubecloud</a>
+          <p class="copyright">Copyright &#169; 2016-2017 <a href="https://danubecloud.com/about-us/company" class="external" target="_blank">Erigones, s. r. o.</a> All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+
+  </body>
+</html>
