@@ -53,6 +53,26 @@ footer {
   border-top: 1px solid #888;
 }
 
+.section-small {
+  border-top: 1px solid #888;
+}
+
+.section-small#danubecloud {
+  background-color: #fff;
+  color: #000;
+}
+
+.text-well {
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 26px;
+  padding-top: 60px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 60px;
+}
+
 .section#home {
   background: black url('../img/backgrounds/exposure.jpg') no-repeat center center fixed;
 
@@ -135,6 +155,13 @@ footer {
   text-align: center;
   min-height: 300px;
   color: #bbb;
+  padding: 0;
+}
+
+.hero-small {
+  width: 100%;
+  text-align: center;
+  min-height: 100px;
   padding: 0;
 }
 
@@ -312,6 +339,9 @@ nav.transparent .pseudo.button.active {
   .content-text, .content-free {
     width: 80%;
   }
+  .text-well {
+    font-size: 22px;
+  }
   .hero .content {
     min-height: 100vh;
   }
@@ -329,11 +359,17 @@ nav.transparent .pseudo.button.active {
     min-height: 120px;
     display: inline-block;
   }
+  .hide-tablet {
+    display: none;
+  }
 }
 
 @media (max-width: 30em) {
   .content-text, .content-free {
     width: 100%;
+  }
+  .text-well {
+    font-size: 18px;
   }
   .lead-image {
     font-size: 40px;
@@ -342,6 +378,9 @@ nav.transparent .pseudo.button.active {
   .lead-image-text {
     padding-top: 42px;
     padding-left: 0px;
+  }
+  .hide-mobile {
+    display: none;
   }
 }
 
